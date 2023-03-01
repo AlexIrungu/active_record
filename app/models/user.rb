@@ -6,5 +6,7 @@ class User < ActiveRecord::Base
       self.reviews.order(star_rating: :desc).first.product
   end
 
-      
+  def remove_reviews(product)
+    product.reviews.delete_all
+end
   end

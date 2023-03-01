@@ -24,6 +24,8 @@ gem 'require_all', '~> 3.0'
 
 gem 'faker', '~> 3.1', '>= 3.1.1'
 
+gem 'pry', '~> 0.14.2'
+
 group :development do 
     gem 'rerun', '~> 0.14.0'
 end

@@ -10,12 +10,12 @@ user2 = User.create(name: Faker::Name.name, age: rand(8..60), gender: Faker::Gen
 product1  = Product.create(name: Faker::Game.title, description: Faker::Game.genre, price: rand(0..60), in_stock: true)
 product2  = Product.create(name: Faker::Game.title, description: Faker::Game.genre, price: rand(0..60), in_stock: true)
 
-review1 = Review.create(star_rating: rand(0..5), comment: "Loved the storyline")
+review1 = Review.create(star_rating: rand(0..5), comment: "Amazing storyline")
 review2 = Review.create(star_rating: rand(0..5), comment: "Definitely an improvement from the last release")
 review3 = Review.create(star_rating: rand(0..5), comment: "This is a Monster Hunter style game. Naturally it's good")
 review4 = Review.create(star_rating: rand(0..5), comment: "I am surprised how good this game is")
-review5 = Review.create(star_rating: rand(0..5), comment: "Reminds me of the spastic combat of Fortnite")
-review6 = Review.create(star_rating: rand(0..5), comment: "Keeps me up all night. If you know what i mean.")
+review5 = Review.create(star_rating: rand(0..5), comment: "Reminds me of the intense gameplay of WARZONE")
+review6 = Review.create(star_rating: rand(0..5), comment: "Keeps me up all night. If you know what I mean.")
 
 user1.reviews << review2
 user2.reviews << review1
