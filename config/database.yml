@@ -1,11 +1,8 @@
-default:
+
+development:
   adapter: sqlite3
-  timeout: 5000
+  database: db/development.sqlite3
 
-  development:
-  <<: *default
-  database: db/active-dev.sqlite3
-
-  production:
-  <<: *default
-  database: db/active-prod.sqlite3
+test:
+  adapter: sqlite3
+  database: db/test.sqlite3
