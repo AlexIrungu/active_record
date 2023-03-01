@@ -1,24 +1,30 @@
 #   Project Title
-#  Active Record Code Challenge: Product Review
-This repository focuses on object relationships and classes, their attributes and behaviours.
+ Active Record Code Challenge: Product Review
 
-This repo contains Many to Many class relationship which is also called the Has-Many-Through relationship, which exists between two objects and occurs when a single instance of an entity, relates to many instance of another entity and vise versa. As an example we have three models: User, Review, and Product.For our purposes, a Product has many Users, a User has many Products’ s, and a Review belongs to a User and to a Product.Product - User is a many-to-many relationship.
+## Project Description
+For this assignment, we'll be working with an e-commerce domain. We'll be focusing on the product reviews.
+
+This repo contains Many to Many class relationship which is also called the Has-Many-Through relationship, which exists between two objects and occurs when a single instance of an entity, relates to many instance of another entity and vise versa. 
+As an example we have three models: User, Review, and Product.For our purposes, a Product has many Users, a User has many Products’ s, and a Review belongs to a User and to a Product.
+
+Product - User is a many-to-many relationship.
 
 
 ## Tools Used
 This project was built with the following tools:
 
-Ruby ~ v3.1.+
+* Ruby ~ v3.1.+
+
 
 ## Topics Covered
 The following are the concepts covered in this practice session
 
-Active Record Migrations
-Active Record Associations
-Class and Instance Methods
-Active Record QueryingProject Setup
-Documentation on the Ruby language can be found here: Ruby Docs
-Documentation on the Active Record can be found here: ActiveRecord Docs
+* Active Record Migrations
+* Active Record Associations
+* Class and Instance Methods
+* Active Record QueryingProject Setup
+* Documentation on the Ruby language can be found here: Ruby Docs
+* Documentation on the Active Record can be found here: ActiveRecord Docs
 
 
 ## Pre-requisites
@@ -55,13 +61,13 @@ Hurray! You are one step closer to being as intelligent as Einstein.
 ## Running the application
 Running the application is very straight forward. You can use the following steps to run the app.
 
-Install required dependencies using bundle
+* Install required dependencies using bundle
 
 bundle install
 
-Run the application on the terminal
+* Run the application on the terminal firstl by entering rake console to go into the pry console and from there you can test the code
 
-ruby bin/run
+
 
 ## Authors
 This project was contributed to by:
