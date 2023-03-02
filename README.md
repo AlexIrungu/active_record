@@ -67,6 +67,10 @@ bundle install
 
 * Run the application on the terminal firstl by entering rake console to go into the pry console and from there you can test the code
 
+## Demo screenshot
+Here is a screenshot of the terminal where the application is runnning from
+ 
+ ![My Image](ERD.png)
 
 
 ## Authors
